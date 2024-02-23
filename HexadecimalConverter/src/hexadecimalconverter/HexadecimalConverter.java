@@ -21,7 +21,7 @@ public class HexadecimalConverter {
 	}
 	public static void exit() {
 		System.out.println("Exiting...");
-		exit();
+		System.exit(0);
 	}
 	public static List<Integer> hexadecimalToDecimal(String value, String[] hexadecimalRange, int[] decimalRange) {
 		List<Integer> resultList = new ArrayList<>();
