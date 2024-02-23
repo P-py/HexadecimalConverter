@@ -28,7 +28,7 @@ public class HexadecimalConverter {
 		int decimalValue=0;
 		for (int i=0; i<value.length(); i++) {
 			for (int j=0; j<hexadecimalRange.length; j++) {
-				if ((value.charAt(i))==hexadecimalRange[j].charAt(0)) {
+				if ((value.toUpperCase().charAt(i))==hexadecimalRange[j].charAt(0)) {
 					decimalValue = decimalRange[j];
 					break;
 				}
